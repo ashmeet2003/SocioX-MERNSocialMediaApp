@@ -20,6 +20,7 @@
   "devDependencies": {},
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules index.js"
+    "start": "node index.js",
   },
   "keywords": [],
   "author": "",
