@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# Dependency directories
+jspm_packages/
+client/node_modules/
+server/node_modules/
+
+# Build directories
+build/
+dist/
+public/
+
+# dotenv environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Bower
+bower_components/
+
+# IDE directories and settings
+.idea/
+.vscode/
+*.swp
+
+# MacOS files
+.DS_Store
+
+# Coverage files
+coverage/
+
+# Optional npm cache directory
+.npm/
+
+# Next.js specific
+.next/
+out/
+
+# Gatsby specific
+.cache/
+public/
+
+# React Native
+*.xcworkspace/
+*.xcodeproj/
+ios/
+android/
+
+# Test files
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# Miscellaneous
+*.tgz
+*.log
+yarn.lock
+package-lock.json
+
