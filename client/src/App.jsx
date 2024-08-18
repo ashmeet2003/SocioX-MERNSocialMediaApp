@@ -26,7 +26,7 @@ function App() {
             />
             <Route
               path="/profile/:userId"
-              element={isAuth ? <ProfilePage /> : <Navigate to="/" />}
+              element={/*isAuth ?*/ <ProfilePage /> /*: <Navigate to="/" />*/}
             />
           </Routes>
         </ThemeProvider>
